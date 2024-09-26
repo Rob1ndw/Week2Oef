@@ -6,7 +6,7 @@ const userInput = readline.createInterface({input, output});
 let fruit=await userInput.question("Welke fruit wil je kopen: ")
 let prijs=0
 
-if(fruit == "peer"){
+if(fruit == "citroen"){
     prijs=1.02
 }
 else if(fruit == "appel"){
